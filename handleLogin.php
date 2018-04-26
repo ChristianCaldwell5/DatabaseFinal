@@ -31,13 +31,13 @@
         }else{
             //ALERT BOX HERE
             $error = "Error: Incorrect username or password";
-            require "easyOrgLogin.php";
+            require "login.php";
         }
     }
     
     function login_form() {
         $username = "";
         $error = "";
-        require "easyOrgLogin.php";
+        require "login.php";
     }
 ?>
